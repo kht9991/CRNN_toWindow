@@ -1,0 +1,7 @@
+# torch==1.* (conda)
+librosa==0.7.0
+tensorboard
+pesq
+pystoi
+matplotlib
+tqdm

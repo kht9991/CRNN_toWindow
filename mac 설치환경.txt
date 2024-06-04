@@ -1,0 +1,44 @@
+conda install python=3.7
+conda install numpy
+conda install argparse
+conda install black
+conda install click mypy-extensions pathspec
+conda install pesq
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 -c pytorch
+
+brew install pipenv
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+pipenv install
+pipenv shell
+
+pip install pypi
+pip install soundfile
+pip install argparse
+pip install enum
+pip install numpy
+pip install torch
+pip install librosa==0.7.0
+pip install tensorboard pesq pystoi matplotlib tqdm
+pip install -r requirements.txt
+pip install numpy scipy matplotlib librosa soundfile sox h5py tensorflow
+pip install numba==0.48.0
+pip install librosa --upgrade
+pip install toml==0.9.2
+pip install tensorflow
+pip install tensorflow_macos
+pip install torchaudio
+
+brew install llvm
+export LLVM_CONFIG=$(brew --prefix llvm)/bin/llvm-config
+
+pip install librosa==0.8.0 numba==0.48.0
+pip install librosa --upgrade #(0.10.2)
+pip install six
+
+pip install numpy==1.19.5
+python train.py -C config/train/baseline_model.json5
+
+=======================================================
+pip install json5
+pip install librosa
